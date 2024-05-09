@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="dropdown.css">
+</head>
+<body>
+    <nav>
+        <div class="judul"> gramedia </div>
+        <ul>
+            <li> <a href ="#">Home</a> </li>
+            <li> <a href ="#">About</a> </li>
+            <li> <a href ="#">Service</a> </li>
+            <li> <a href ="#" onclick="toggleMenu()">Book</a> </li>
+            <li> <a href ="#">Contact Us</a> </li>
+        </ul>
+
+        <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="book">
+                    <h3>Choice of Genre</h3>
+                </div>
+                <hr>
+
+                <a href="#" class="sub-menu-link">
+                    <p>Horor</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <p>Fantacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <p>Romance</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <p>Mistery</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <p>Adventure</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <p>Education</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+    <script src="dropdown.js"></script>
+</body>
+</html>
