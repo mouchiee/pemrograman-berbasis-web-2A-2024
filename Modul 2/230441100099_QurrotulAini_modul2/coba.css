@@ -1,0 +1,28 @@
+body{
+    background: "mpuss.jpeg";
+    background-repeat: repeat;
+}
+
+p{
+    color: #5e442e;
+    font: bold 40px arial;
+    text-transform: uppercase;
+}
+
+.text-shadow1{
+    text-shadow: 
+    2px 3px 4px rgb(230, 195, 80);
+}
+
+.infotext{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5e422c;
+    background: rgb(206, 159, 98);
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+.anu{
+    margin: 0;
+    padding: 0;
+}

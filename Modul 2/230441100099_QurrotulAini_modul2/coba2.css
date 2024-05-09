@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* Agar menu berada di sisi yang berlawanan */
+    align-items: center;
+    margin-top: none;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+    padding: 50px;
+    order: 2;
+}
+
+.image {
+    flex: 1.5;
+    text-align: center;
+    order: 1;
+}
+
+.image img {
+    max-width: 50%;
+    height: auto;
+    order: 1;
+}
